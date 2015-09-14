@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.DesignFUZZ"
+        parent="Base.Theme.FUZZ">
+    </style>
+
+
+
+    <style name="Base.Theme.FUZZ" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#F44336</item>
+        <item name="colorPrimaryDark">#D32F2F</item>
+        <item name="colorAccent">#212121</item>
+        <item name="colorControlActivated">#03A9F4</item>
+        <item name="android:textColorHint">#03A9F4</item>
+
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+
+</resources>
